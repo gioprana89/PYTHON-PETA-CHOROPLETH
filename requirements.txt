@@ -1,0 +1,13 @@
+matplotlib==3.7.1
+matplotlib-inline==0.1.6
+pandas==1.5.3
+pandas-datareader==0.10.0
+plotly==5.13.1
+numpy==1.24.2
+openpyxl==3.1.2
+streamlit==1.20.0
+geopandas==0.12.2
+multiapp==1.0
+streamlit_folium==0.11.1
+folium==0.14.0
+pybase64==1.2.3

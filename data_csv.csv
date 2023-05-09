@@ -1,0 +1,10 @@
+ID_0,COUNTRY,ID_1,NAME_1,VARNAME_1,NL_NAME_1,TYPE_1,ENGTYPE_1,CC_1,HASC_1,ISO_1,area,jumlah,warna
+IDN,Indonesia,IDN.1_1,Aceh,,,Propinisi,Province,"11",ID.AC,,56836486921,"43",orange
+IDN,Indonesia,IDN.5_1,Bengkulu,,,Propinisi,Province,"17",ID.BE,,19814679672,"4",red
+IDN,Indonesia,IDN.8_1,Jambi,,,Propinisi,Province,"15",ID.JA,,48963340162,"54",green
+IDN,Indonesia,IDN.16_1,Kepulauan Riau,,,Propinisi,Province,"21",ID.KR,,8278233956,"67",green
+IDN,Indonesia,IDN.17_1,Lampung,,,Propinisi,Province,"18",ID.LA,,33487289632,"87",green
+IDN,Indonesia,IDN.24_1,Riau,,,Propinisi,Province,"14",ID.RI,,89880514757,"64",green
+IDN,Indonesia,IDN.30_1,Sumatera Barat,,,Propinisi,Province,"13",ID.SB,,42145983550,"49",orange
+IDN,Indonesia,IDN.31_1,Sumatera Selatan,,,Propinisi,Province,"16",ID.SL,,86991188762,"72",green
+IDN,Indonesia,IDN.32_1,Sumatera Utara,,,Propinisi,Province,"12",ID.SU,,72227197128,"83",green
