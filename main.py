@@ -21,7 +21,8 @@ st.markdown("<h5 style='text-align: justify; color: blue;'>Membuat Peta dengan P
 st.image("ugi.png", caption='', width = 350)
 
 
-shp_indonesia = gdp.read_file('D:/PYTHON/STREAMLIT/PETA/FOLIUM/MEMBERI WARNA DAN LABEL PADA PETA/untuk streamlit/sumatera_shp_new.shp')
+#shp_indonesia = gdp.read_file('D:/PYTHON/STREAMLIT/PETA/FOLIUM/MEMBERI WARNA DAN LABEL PADA PETA/untuk streamlit/sumatera_shp_new.shp')
+shp_indonesia = gdp.read_file('sumatera_shp_new.shp') #untuk deploy
 
 
 gdf = geopandas.GeoDataFrame(shp_indonesia, crs="EPSG:4326")
@@ -29,7 +30,8 @@ gdf = geopandas.GeoDataFrame(shp_indonesia, crs="EPSG:4326")
 hasil_gjson_id = gdf.to_json()
 
 
-data_csv = pd.read_csv("D:/PYTHON/STREAMLIT/PETA/FOLIUM/MEMBERI WARNA DAN LABEL PADA PETA/untuk streamlit/data_csv.csv")
+#data_csv = pd.read_csv("D:/PYTHON/STREAMLIT/PETA/FOLIUM/MEMBERI WARNA DAN LABEL PADA PETA/untuk streamlit/data_csv.csv")
+data_csv = pd.read_csv("data_csv.csv") #untuk deploy
 
 
 ekstrak_data = data_csv[['NAME_1','jumlah']]
@@ -37,7 +39,8 @@ ekstrak_data = data_csv[['NAME_1','jumlah']]
 
 
 
-geo_json_data = json.load(open('D:/PYTHON/STREAMLIT/PETA/FOLIUM/MEMBERI WARNA DAN LABEL PADA PETA/untuk streamlit/sumatera_gsjon.geojson', 'r'))
+#geo_json_data = json.load(open('D:/PYTHON/STREAMLIT/PETA/FOLIUM/MEMBERI WARNA DAN LABEL PADA PETA/untuk streamlit/sumatera_gsjon.geojson', 'r'))
+geo_json_data = json.load(open('sumatera_gsjon.geojson', 'r')) #untuk deploy
 
 
 
